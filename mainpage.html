@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your city's weather</title>
+    <link rel="stylesheet" href="styles/stylemainpage.css">
+    <link rel="stylesheet" href="styles/utility.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="flex-column">
+        <div class="city-name-container flex-row br-20">
+            <div class="city-name br-20 bg-orange-color">
+                <h1 id="city-name">Your city name</h1>
+            </div>
+        </div>
+        <div class="information br-20">
+            <div class="weather-info-contanier br-20 bg-orange-color txt-orange-color">
+                <div class="today-weather br-20 bg-white-color">
+                    <div class="today-weather-image flex-row">
+                        <img src="assets/images/weather conditions/rainyweather.svg" alt="Weather condition image" id="weather-condition-image" width="200px" height="200px">
+                    </div>
+                    <div class="actual-today-weather br-20">
+
+                    </div>
+                </div>
+                <div class="three-day-weather br-20 bg-white-color"></div>
+                <div class="one-week-weather br-20 bg-white-color"></div>
+            </div>
+            <div class="other-weather-info br-20">
+                <div class="air-uv-hum-speed-info">
+
+                    <div class="AQI info-box br-20 bg-orange-color">
+                        <div class="AQI-img">
+                            <img src="assets/images/AQI.svg" alt="AQI image" width="90px">
+                        </div>
+                        <div class="AQI-info txt-white-color">AQI info</div>
+                    </div>
+
+                    <div class="UVindex info-box br-20 bg-orange-color">
+                        <div class="UVindex-img">
+                            <img src="assets/images/uvindex.svg" alt="UVindex" width="90px">
+                        </div>
+                    </div>
+
+                    <div class="wind-speed info-box br-20 bg-orange-color">
+                        <div class="wind-speed-img">
+                            <img src="assets/images/windspeed.svg" alt="Wind speed" width="90px">
+                        </div>
+                        <div class="wind-speed-info txt-white-color">Wind speed</div>
+                    </div>
+
+                    <div class="humidity info-box br-20 bg-orange-color">
+                        <div class="humidity-img">
+                            <img src="assets/images/humidity.svg" alt="Humidity" width="90px">
+                        </div>
+                        <div class="humidity-info txt-white-color">Humidity</div>
+                    </div>
+                </div>
+
+                <div class="sunset-sunrise-container">
+                    <div class="sunset-sunrise br-20 bg-orange-color">
+                        <div class="sunrise">
+                            <div class="sunrise-img">
+                                <img src="assets/images/sunrise.svg" alt="Sunrise" width="90px">
+                            </div>
+                            <div class="sunrise-info txt-white-color">Sunrise</div>
+                        </div>
+
+                        <div class="sunset">
+                            <div class="sunset-img">
+                                <img src="assets/images/sunset.svg" alt="Sunset" width="90px">
+                            </div>
+                            <dic class="sunset-info txt-white-color">Sunset</dic>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

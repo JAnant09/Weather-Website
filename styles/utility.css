@@ -15,3 +15,19 @@
 .br-20{
     border-radius: 20px;
 }
+
+.txt-orange-color{
+    color: #f8642c;
+}
+
+.txt-white-color{
+    color: white;
+}
+
+.bg-orange-color{
+    background-color:#f8642c;;
+}
+
+.bg-white-color{
+    background-color: white;
+}
