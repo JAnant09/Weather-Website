@@ -1,0 +1,33 @@
+/* Text color */
+
+.txt-color-navy{
+    color: rgb(33, 53, 85);
+}
+
+.txt-color-blue{
+    color: rgb(79, 112, 156)
+}
+
+.txt-color-yellow{
+    color: rgb(229, 210, 131);
+}
+
+/* flex box  */
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* border radius */
+.br-10{
+    border-radius: 10px;
+}
