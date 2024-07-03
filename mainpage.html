@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather website</title>
+    <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/stylemainpage.css">
+    <link rel="stylesheet" href="styles/utility.css">
+</head>
+<body>
+
+    <header class="flex-row">
+        <h1 class="txt-color-navy">City name</h1>
+    </header>
+
+    <main>
+        <div class="current-weather-info-container">
+            <div class="current-weather-icon">
+                <img src="assets/images/weather-condition-icons/sunny.svg" alt="Current weather image" width="200px" height="200px">
+            </div>
+            <div class="current-weather-details txt-color-white">52'C</div>
+        </div>
+
+        <div class="other-current-weather-details">
+            <div class="vertical-divider"></div>
+            <div class="list">
+                <ul class="txt-color-white">
+                    <li>Current weather : </li>
+                    <li>Minimum temperature : </li>
+                    <li>Maximum temperature : </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="special-msg txt-color-white flex-row">
+            <div class="vertical-divider"></div>
+            <p>The weather is sunny, use sunscreen to stay protected.</p>
+        </div>
+    </main>
+
+    <div class="other-details">
+        <div class="humidity"></div>
+        <div class="UVindex"></div>
+        <div class="Wind-speed"></div>
+        <div class="sunset-sunrise"></div>
+    </div>
+
+    <footer></footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

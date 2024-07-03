@@ -12,6 +12,10 @@
     color: rgb(229, 210, 131);
 }
 
+.txt-color-white{
+    color: rgb(240, 240, 240);
+}
+
 /* flex box  */
 .flex-row{
     display: flex;
@@ -30,4 +34,11 @@
 /* border radius */
 .br-10{
     border-radius: 10px;
+}
+
+/* vertical divider */
+.vertical-divider{
+    width: 5px;
+    background-color: rgb(240, 240, 240);
+    height: 100%;
 }
