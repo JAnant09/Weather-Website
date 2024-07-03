@@ -37,7 +37,7 @@ main {
 }
 
 .search-area {
-    border: 2px solid black;
+    border: 2px solid rgb(33, 53, 85);;
     width: 100%;
     max-width: 600px;
     display: flex;
@@ -66,7 +66,7 @@ main {
 }
 
 .search-city-box:focus {
-    outline: none;
+    outline: 4px solid rgb(33, 53, 85);;
 }
 
 .search-button {
@@ -80,6 +80,7 @@ main {
     padding: 0 10px;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .search-button img {
