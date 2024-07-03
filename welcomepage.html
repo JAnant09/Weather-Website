@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather website</title>
+    <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -12,16 +13,19 @@
 </head>
 <body>
     <main class="flex-column">
-
         <div class="welcome">
             <h1 class="txt-color-navy">Welcome,</h1>
             <p class="txt-color-yellow">enter your city to know the weather.</p>
         </div>
 
-        <div class="search-city">
-            <input type="text" class="search-city-box br-10" placeholder="Search your city">
+        <div class="search-area br-10">
+            <div class="search-city">
+                <div class="input-button-wrapper">
+                    <input type="text" class="search-city-box br-10" placeholder="Search your city">
+                    <button class="search-button br-10"><img src="assets/images/searchbutton.svg" alt="Search button" width="20px" height="20px"></button>
+                </div>
+            </div>
         </div>
-
     </main>
 </body>
 </html>

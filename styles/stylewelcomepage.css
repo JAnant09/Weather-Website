@@ -11,7 +11,7 @@ body {
 
 main {
     min-height: 100vh;
-    width: 100%;
+    width: 100vw;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -23,43 +23,90 @@ main {
     width: 100%;
     max-width: 600px;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 .welcome h1 {
-    font-size: 48px;
+    font-size: 60px;
     font-weight: bold;
-    margin-bottom: 10px;
 }
 
 .welcome p {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
+}
+
+.search-area {
+    border: 2px solid black;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
 }
 
 .search-city {
     width: 100%;
-    max-width: 600px;
+}
+
+.input-button-wrapper {
+    position: relative;
+    width: 100%;
 }
 
 .search-city-box {
     width: 100%;
     height: 50px;
+    padding-right: 60px; 
     padding: 10px;
-    border: 2px solid black;
+    border: none;
     font-size: 16px;
+    box-sizing: border-box;
 }
 
-@media (min-width: 768px) {
+.search-city-box:focus {
+    outline: none;
+}
+
+.search-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.search-button img {
+    vertical-align: middle;
+}
+
+@media (max-width: 481px) {
     .welcome {
-        text-align: left;
+        text-align: center;
     }
 
     .welcome h1 {
-        font-size: 60px;
+        font-size: 40px;
     }
 
     .welcome p {
-        font-size: 25px;
+        font-size: 20px;
+    }
+
+    .search-city-box {
+        height: 40px;
+        font-size: 18px;
+        padding-right: 50px; 
+    }
+
+    .search-button img {
+        width: 40px;
+        height: 40px;
     }
 }
