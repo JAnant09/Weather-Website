@@ -29,7 +29,7 @@ main{
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     display: grid;
-    grid-template-columns:30% 30% 40%;
+    grid-template-columns: 50% 40%;
     padding: 20px
 }
 
@@ -38,11 +38,6 @@ main{
     flex-direction: row;
     align-items: center;
     gap: 50px;
-}
-
-.current-weather-details{
-    font-size: 70px;
-    font-weight: bold;
 }
 
 .other-current-weather-details{
@@ -61,19 +56,36 @@ main{
     font-weight: bold;
 }
 
-.other-details{
-    width: 100%;
-    height: 30%;
-    background-color:  rgb(229, 210, 131);
-}
 .special-msg{
-    gap: 30px;
+    gap: 50px;
 }
 
 .special-msg p{
     font-size: 25px;
     font-weight: bold;
 }
+
+.other-details{
+    width: 100%;
+    height: 30%;
+    background-color:  rgb(229, 210, 131);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+.air-condition{
+    border: 2px solid black;
+    height: 100%;
+    width: 100%;
+}
+
+.sun-condition{
+    border: 2px solid black;
+    height: 100%;
+    width: 100%;
+}
+
 
 footer{
     width: 100%;

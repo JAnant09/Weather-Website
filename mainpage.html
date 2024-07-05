@@ -22,20 +22,19 @@
             <div class="current-weather-icon">
                 <img src="assets/images/weather-condition-icons/sunny.svg" alt="Current weather image" width="200px" height="200px">
             </div>
-            <div class="current-weather-details txt-color-white">52'C</div>
+
+            <div class="other-current-weather-details">
+                <div class="list">
+                    <ul class="txt-color-white">
+                        <li>Current weather : </li>
+                        <li>Minimum temperature : </li>
+                        <li>Maximum temperature : </li>
+                    </ul>
+                </div>
+            </div>
+            
         </div>
 
-        <div class="other-current-weather-details">
-            <div class="vertical-divider"></div>
-            <div class="list">
-                <ul class="txt-color-white">
-                    <li>Current weather : </li>
-                    <li>Minimum temperature : </li>
-                    <li>Maximum temperature : </li>
-                </ul>
-            </div>
-        </div>
-        
         <div class="special-msg txt-color-white flex-row">
             <div class="vertical-divider"></div>
             <p>The weather is sunny, use sunscreen to stay protected.</p>
@@ -43,10 +42,20 @@
     </main>
 
     <div class="other-details">
-        <div class="humidity"></div>
-        <div class="UVindex"></div>
-        <div class="Wind-speed"></div>
-        <div class="sunset-sunrise"></div>
+
+        <div class="air-condition">
+            <div class="humidity">
+                <img src="assets/images/humidity.svg" alt="Humidity" class="humidity-icon" width="100px">
+            </div>
+            <div class="Wind-speed"></div>
+        </div>
+
+
+        <div class="sun-condition flex-row">
+            <div class="UVindex"></div>
+            <div class="sunset-sunrise"></div>
+        </div>
+
     </div>
 
     <footer></footer>
