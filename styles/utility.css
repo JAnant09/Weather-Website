@@ -36,11 +36,7 @@
 }
 
 /* vertical divider */
-.vertical-divider{
-    width: 5px;
-    background-color: rgb(240, 240, 240);
-    height: 90%;
-}
+
 
 /* border */
 .border{
@@ -48,7 +44,5 @@
 }
 
 /* Other details image width */
-.image-width{
-    width: 100px;
-    height: 100px;
-}
+
+
