@@ -1,1 +1,0 @@
-The webiste should be made responsive for devices with width less than 1550.

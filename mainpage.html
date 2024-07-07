@@ -14,21 +14,21 @@
 <body>
 
     <header class="flex-row">
-        <h1 class="txt-color-navy" id="headerCity"> City name </h1>
+        <h1 class="txt-color-navy" id="headerCity"></h1>
     </header>
 
     <main>
         <div class="current-weather-info-container">
             <div class="current-weather-icon">
-                <img src="assets/images/weather-condition-icons/sunny.svg" id ="weather-image"  alt="Current weather image" width="200px" height="200px">
+                <img src="" id ="weather-image"  alt="Current weather image" width="200px" height="200px">
             </div>
 
             <div class="other-current-weather-details">
                 <div class="list">
                     <ul class="txt-color-white">
-                        <li>Current weather : </li>
-                        <li>Minimum temperature : </li>
-                        <li>Maximum temperature : </li>
+                        <li id="current-weather"></li>
+                        <li id="minimum-weather"></li>
+                        <li id="maximum-weather"></li>
                     </ul>
                 </div>
             </div>
@@ -37,7 +37,7 @@
 
         <div class="special-msg txt-color-white">
             <div class="divider"></div>
-            <p id="message">The weather is sunny, use sunscreen to stay protected.</p>
+            <p id="weather-message"></p>
         </div>
     </main>
 
@@ -47,7 +47,7 @@
             <img src="assets/images/humidity.svg" alt="Humidity" class="humidity-icon image-width">
             <div class="humidity-info flex-row">
                 <h1 class="txt-color-white other-detail-h1">Humidity : </h1>
-                <h2 class="txt-color-white other-detail-h2" id="humidityID">45</h2>
+                <h2 class="txt-color-white other-detail-h2" id="humidityID"></h2>
             </div>
         </div>
 
@@ -55,7 +55,7 @@
             <img src="assets/images/uvindex.svg" alt="UV index" class="uvindex-icon image-width">
             <div class="uvindex-info flex-row">
                 <h1 class="txt-color-white other-detail-h1">UV Index : </h1>
-                <h2 class="txt-color-white other-detail-h2" id="uvindexID">77</h2>
+                <h2 class="txt-color-white other-detail-h2" id="uvindexID">None</h2>
             </div>
         </div>
 
@@ -63,7 +63,7 @@
             <img src="assets/images/windspeed.svg" alt="windspeed" class="windspeed-icon image-width">
             <div class="windspeed-info flex-row">
                 <h1 class="txt-color-white other-detail-h1">Wind Speed : </h1>
-                <h2 class="txt-color-white other-detail-h2" id="windspeedID">100</h2>
+                <h2 class="txt-color-white other-detail-h2" id="windspeedID"></h2>
             </div>
         </div>
 
@@ -71,7 +71,7 @@
             <img src="assets/images/sunrise.svg" alt="Sunrise" class="sunrise-icon image-width">
             <div class="sunrise-info flex-row">
                 <h1 class="txt-color-white other-detail-h1">Sunrise : </h1>
-                <h2 class="txt-color-white other-detail-h2" id="sunriseID">6:00 AM</h2>
+                <h2 class="txt-color-white other-detail-h2" id="sunriseID"></h2>
             </div>
         </div>
 
@@ -79,15 +79,13 @@
             <img src="assets/images/sunset.svg" alt="sunset" class="sunset-icon image-width">
             <div class="sunset-info flex-row">
                 <h1 class="txt-color-white other-detail-h1">Sunset : </h1>
-                <h2 class="txt-color-white other-detail-h2" id="sunsetID">5:00 PM</h2>
+                <h2 class="txt-color-white other-detail-h2" id="sunsetID"></h2>
             </div>
         </div>
 
     </div>
 
-    <footer>
-
-    </footer>
+    <footer></footer>
 
     <script src="script.js"></script>
 </body>
